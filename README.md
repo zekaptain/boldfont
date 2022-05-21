@@ -1,7 +1,7 @@
 # boldfont
 a latex package that bolds the first syllable of every word
 
-## Explanation:
+## brief explainer:
 The *boldfont* package utilizes an existing string manipulation LaTeX package, *xstring*, to bold the first few characters of every string in a compiled LaTeX document.
 
 The package works as follows:
