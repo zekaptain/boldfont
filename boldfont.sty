@@ -2,3 +2,8 @@
 \ProvidesPackage{boldfont}[2022/05/21 Boldfont LaTeX package]
 
 \RequirePackage{xstring}
+
+\newcommand{\boldstring}{\textbf{}}
+
+\DeclareOption*{\PackageWarning{boldfont}{Unknown ‘\CurrentOption’}}
+\ProcessOptions\relax
